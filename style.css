@@ -1,0 +1,46 @@
+body{
+    background-color: rgba(0, 0, 90, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+  
+#text{
+    background-color: black;
+    color: white;
+    padding: 19px;
+    border: 3px ridge red;
+}
+  
+#game{
+    max-width: 500px;
+    max-height: 500px;
+    background-color: lightgray;
+    color: white;
+    margin: 0 auto;
+    padding: 10px;
+}
+  
+#controls{
+    border: 1px black solid;
+    padding: 5px;
+}
+  
+#stats{
+    border: 1px black solid;
+    color: black;
+    padding: 5px;
+}
+  
+#dinoStats{
+    display: none;
+    border: 1px black solid;
+    color: white;
+    padding: 5px;
+    background-color: red;
+}
+  
+.stat{
+    padding-right: 10px;
+}
